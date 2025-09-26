@@ -1,0 +1,293 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Uno-1" mainComp="false" Show_id="true" Show_Val="false" Pos="1152,408" rotation="0" hflip="1" vflip="1" label="Uno-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="0_9.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
+</item>
+
+<item itemtype="SerialPort" CircId="SerialPort-20" mainComp="false" Show_id="false" Show_Val="false" Pos="1184,364" rotation="0" hflip="1" vflip="1" label="SerialPort-20" idLabPos="-20,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" Auto="false" Baudrate="9600 _Bd" DataBits="8 _bits" StopBits="1 _bits" SerialMon="true" />
+
+<item itemtype="Push" CircId="Push-28" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,472" rotation="-180" hflip="1" vflip="1" label="Push-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-27" mainComp="false" Show_id="false" Show_Val="false" Pos="1108,488" rotation="0" hflip="1" vflip="1" label="Ground-27" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,496" rotation="0" hflip="1" vflip="1" label="Resistor-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-25" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,520" rotation="0" hflip="1" vflip="1" label="Resistor-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="LedRgb" CircId="LedRgb-22" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,548" rotation="-360" hflip="1" vflip="1" label="LedRgb-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="Push" CircId="Push-28" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,472" rotation="-180" hflip="1" vflip="1" label="Push-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-27" mainComp="false" Show_id="false" Show_Val="false" Pos="1108,488" rotation="0" hflip="1" vflip="1" label="Ground-27" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,496" rotation="0" hflip="1" vflip="1" label="Resistor-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-25" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,520" rotation="0" hflip="1" vflip="1" label="Resistor-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="LedRgb" CircId="LedRgb-22" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,548" rotation="-360" hflip="1" vflip="1" label="LedRgb-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="Push" CircId="Push-28" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,472" rotation="-180" hflip="1" vflip="1" label="Push-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-27" mainComp="false" Show_id="false" Show_Val="false" Pos="1108,488" rotation="0" hflip="1" vflip="1" label="Ground-27" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,496" rotation="0" hflip="1" vflip="1" label="Resistor-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-25" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,520" rotation="0" hflip="1" vflip="1" label="Resistor-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="LedRgb" CircId="LedRgb-22" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,548" rotation="-360" hflip="1" vflip="1" label="LedRgb-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="Push" CircId="Push-28" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,472" rotation="-180" hflip="1" vflip="1" label="Push-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-27" mainComp="false" Show_id="false" Show_Val="false" Pos="1108,488" rotation="0" hflip="1" vflip="1" label="Ground-27" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,496" rotation="0" hflip="1" vflip="1" label="Resistor-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-25" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,520" rotation="0" hflip="1" vflip="1" label="Resistor-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="LedRgb" CircId="LedRgb-22" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,548" rotation="-360" hflip="1" vflip="1" label="LedRgb-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="Push" CircId="Push-28" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,472" rotation="-180" hflip="1" vflip="1" label="Push-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-27" mainComp="false" Show_id="false" Show_Val="false" Pos="1108,488" rotation="0" hflip="1" vflip="1" label="Ground-27" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,496" rotation="0" hflip="1" vflip="1" label="Resistor-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-25" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,520" rotation="0" hflip="1" vflip="1" label="Resistor-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="LedRgb" CircId="LedRgb-22" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,548" rotation="-360" hflip="1" vflip="1" label="LedRgb-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="Push" CircId="Push-28" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,472" rotation="-180" hflip="1" vflip="1" label="Push-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-27" mainComp="false" Show_id="false" Show_Val="false" Pos="1108,488" rotation="0" hflip="1" vflip="1" label="Ground-27" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,496" rotation="0" hflip="1" vflip="1" label="Resistor-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-25" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,520" rotation="0" hflip="1" vflip="1" label="Resistor-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="LedRgb" CircId="LedRgb-22" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,548" rotation="-360" hflip="1" vflip="1" label="LedRgb-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="Push" CircId="Push-28" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,472" rotation="-180" hflip="1" vflip="1" label="Push-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-27" mainComp="false" Show_id="false" Show_Val="false" Pos="1108,488" rotation="0" hflip="1" vflip="1" label="Ground-27" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,496" rotation="0" hflip="1" vflip="1" label="Resistor-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-25" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,520" rotation="0" hflip="1" vflip="1" label="Resistor-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="LedRgb" CircId="LedRgb-22" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,548" rotation="-360" hflip="1" vflip="1" label="LedRgb-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="Push" CircId="Push-28" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,472" rotation="-180" hflip="1" vflip="1" label="Push-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-27" mainComp="false" Show_id="false" Show_Val="false" Pos="1108,488" rotation="0" hflip="1" vflip="1" label="Ground-27" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,496" rotation="0" hflip="1" vflip="1" label="Resistor-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-25" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,520" rotation="0" hflip="1" vflip="1" label="Resistor-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="LedRgb" CircId="LedRgb-22" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,548" rotation="-360" hflip="1" vflip="1" label="LedRgb-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="Push" CircId="Push-28" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,472" rotation="-180" hflip="1" vflip="1" label="Push-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-27" mainComp="false" Show_id="false" Show_Val="false" Pos="1108,488" rotation="0" hflip="1" vflip="1" label="Ground-27" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,496" rotation="0" hflip="1" vflip="1" label="Resistor-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-25" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,520" rotation="0" hflip="1" vflip="1" label="Resistor-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="LedRgb" CircId="LedRgb-22" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,548" rotation="-360" hflip="1" vflip="1" label="LedRgb-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="Push" CircId="Push-28" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,472" rotation="-180" hflip="1" vflip="1" label="Push-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-27" mainComp="false" Show_id="false" Show_Val="false" Pos="1108,488" rotation="0" hflip="1" vflip="1" label="Ground-27" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,496" rotation="0" hflip="1" vflip="1" label="Resistor-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-25" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,520" rotation="0" hflip="1" vflip="1" label="Resistor-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="LedRgb" CircId="LedRgb-22" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,548" rotation="-360" hflip="1" vflip="1" label="LedRgb-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="Push" CircId="Push-28" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,472" rotation="-180" hflip="1" vflip="1" label="Push-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-27" mainComp="false" Show_id="false" Show_Val="false" Pos="1108,488" rotation="0" hflip="1" vflip="1" label="Ground-27" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,496" rotation="0" hflip="1" vflip="1" label="Resistor-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-25" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,520" rotation="0" hflip="1" vflip="1" label="Resistor-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="LedRgb" CircId="LedRgb-22" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,548" rotation="-360" hflip="1" vflip="1" label="LedRgb-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="Push" CircId="Push-28" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,472" rotation="-180" hflip="1" vflip="1" label="Push-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-27" mainComp="false" Show_id="false" Show_Val="false" Pos="1108,488" rotation="0" hflip="1" vflip="1" label="Ground-27" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,496" rotation="0" hflip="1" vflip="1" label="Resistor-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-25" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,520" rotation="0" hflip="1" vflip="1" label="Resistor-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="LedRgb" CircId="LedRgb-22" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,548" rotation="-360" hflip="1" vflip="1" label="LedRgb-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="Push" CircId="Push-28" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,472" rotation="-180" hflip="1" vflip="1" label="Push-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-27" mainComp="false" Show_id="false" Show_Val="false" Pos="1108,488" rotation="0" hflip="1" vflip="1" label="Ground-27" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,496" rotation="0" hflip="1" vflip="1" label="Resistor-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-25" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,520" rotation="0" hflip="1" vflip="1" label="Resistor-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="LedRgb" CircId="LedRgb-22" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,548" rotation="-360" hflip="1" vflip="1" label="LedRgb-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="Push" CircId="Push-28" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,472" rotation="-180" hflip="1" vflip="1" label="Push-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-27" mainComp="false" Show_id="false" Show_Val="false" Pos="1108,488" rotation="0" hflip="1" vflip="1" label="Ground-27" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,496" rotation="0" hflip="1" vflip="1" label="Resistor-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-25" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,520" rotation="0" hflip="1" vflip="1" label="Resistor-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="LedRgb" CircId="LedRgb-22" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,548" rotation="-360" hflip="1" vflip="1" label="LedRgb-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="Push" CircId="Push-28" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,472" rotation="-180" hflip="1" vflip="1" label="Push-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-27" mainComp="false" Show_id="false" Show_Val="false" Pos="1108,488" rotation="0" hflip="1" vflip="1" label="Ground-27" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,496" rotation="0" hflip="1" vflip="1" label="Resistor-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-25" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,520" rotation="0" hflip="1" vflip="1" label="Resistor-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="LedRgb" CircId="LedRgb-22" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,548" rotation="-360" hflip="1" vflip="1" label="LedRgb-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="Push" CircId="Push-28" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,472" rotation="-180" hflip="1" vflip="1" label="Push-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-27" mainComp="false" Show_id="false" Show_Val="false" Pos="1108,488" rotation="0" hflip="1" vflip="1" label="Ground-27" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,496" rotation="0" hflip="1" vflip="1" label="Resistor-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-25" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,520" rotation="0" hflip="1" vflip="1" label="Resistor-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="LedRgb" CircId="LedRgb-22" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,548" rotation="-360" hflip="1" vflip="1" label="LedRgb-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="Push" CircId="Push-28" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,472" rotation="-180" hflip="1" vflip="1" label="Push-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-27" mainComp="false" Show_id="false" Show_Val="false" Pos="1108,488" rotation="0" hflip="1" vflip="1" label="Ground-27" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,496" rotation="0" hflip="1" vflip="1" label="Resistor-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="60 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-25" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1132,520" rotation="0" hflip="1" vflip="1" label="Resistor-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="LedRgb" CircId="LedRgb-22" mainComp="false" Show_id="false" Show_Val="false" Pos="1132,548" rotation="-360" hflip="1" vflip="1" label="LedRgb-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="Connector" uid="Connector-46" startpinid="SerialPort-20-pin0" endpinid="Uno-1-0" pointList="1144,356,1136,356,1136,424,1160,424" />
+
+<item itemtype="Connector" uid="Connector-45" startpinid="SerialPort-20-pin1" endpinid="Uno-1-1" pointList="1144,372,1144,432,1160,432" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Ground-27-Gnd" endpinid="Push-28-switch0pinN" pointList="1108,472,1116,472" />
+
+<item itemtype="Connector" uid="Connector-69" startpinid="Push-28-pinP0" endpinid="Uno-1-6" pointList="1148,472,1160,472" />
+
+<item itemtype="Connector" uid="Connector-67" startpinid="Resistor-26-rPin" endpinid="Uno-1-11" pointList="1148,496,1152,496,1152,520,1160,520" />
+
+<item itemtype="Connector" uid="Connector-66" startpinid="Resistor-25-rPin" endpinid="Uno-1-13" pointList="1148,520,1148,536,1160,536" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Resistor-26-lPin" endpinid="LedRgb-22-Pin1" pointList="1116,496,1108,496,1108,548,1116,548" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Resistor-25-lPin" endpinid="LedRgb-22-Pin0" pointList="1116,520,1116,540" />
+
+<item itemtype="Connector" uid="Connector-61" startpinid="LedRgb-22-Pin3" endpinid="Uno-1-GND2" pointList="1148,548,1148,544,1160,544" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Ground-27-Gnd" endpinid="Push-28-switch0pinN" pointList="1108,472,1116,472" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Resistor-26-lPin" endpinid="LedRgb-22-Pin1" pointList="1116,496,1108,496,1108,548,1116,548" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Resistor-25-lPin" endpinid="LedRgb-22-Pin0" pointList="1116,520,1116,540" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Ground-27-Gnd" endpinid="Push-28-switch0pinN" pointList="1108,472,1116,472" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Resistor-26-lPin" endpinid="LedRgb-22-Pin1" pointList="1116,496,1108,496,1108,548,1116,548" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Resistor-25-lPin" endpinid="LedRgb-22-Pin0" pointList="1116,520,1116,540" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Ground-27-Gnd" endpinid="Push-28-switch0pinN" pointList="1108,472,1116,472" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Resistor-26-lPin" endpinid="LedRgb-22-Pin1" pointList="1116,496,1108,496,1108,548,1116,548" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Resistor-25-lPin" endpinid="LedRgb-22-Pin0" pointList="1116,520,1116,540" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Ground-27-Gnd" endpinid="Push-28-switch0pinN" pointList="1108,472,1116,472" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Resistor-26-lPin" endpinid="LedRgb-22-Pin1" pointList="1116,496,1108,496,1108,548,1116,548" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Resistor-25-lPin" endpinid="LedRgb-22-Pin0" pointList="1116,520,1116,540" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Ground-27-Gnd" endpinid="Push-28-switch0pinN" pointList="1108,472,1116,472" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Resistor-26-lPin" endpinid="LedRgb-22-Pin1" pointList="1116,496,1108,496,1108,548,1116,548" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Resistor-25-lPin" endpinid="LedRgb-22-Pin0" pointList="1116,520,1116,540" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Ground-27-Gnd" endpinid="Push-28-switch0pinN" pointList="1108,472,1116,472" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Resistor-26-lPin" endpinid="LedRgb-22-Pin1" pointList="1116,496,1108,496,1108,548,1116,548" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Resistor-25-lPin" endpinid="LedRgb-22-Pin0" pointList="1116,520,1116,540" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Ground-27-Gnd" endpinid="Push-28-switch0pinN" pointList="1108,472,1116,472" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Resistor-26-lPin" endpinid="LedRgb-22-Pin1" pointList="1116,496,1108,496,1108,548,1116,548" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Resistor-25-lPin" endpinid="LedRgb-22-Pin0" pointList="1116,520,1116,540" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Ground-27-Gnd" endpinid="Push-28-switch0pinN" pointList="1108,472,1116,472" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Resistor-26-lPin" endpinid="LedRgb-22-Pin1" pointList="1116,496,1108,496,1108,548,1116,548" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Resistor-25-lPin" endpinid="LedRgb-22-Pin0" pointList="1116,520,1116,540" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Ground-27-Gnd" endpinid="Push-28-switch0pinN" pointList="1108,472,1116,472" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Resistor-26-lPin" endpinid="LedRgb-22-Pin1" pointList="1116,496,1108,496,1108,548,1116,548" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Resistor-25-lPin" endpinid="LedRgb-22-Pin0" pointList="1116,520,1116,540" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Ground-27-Gnd" endpinid="Push-28-switch0pinN" pointList="1108,472,1116,472" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Resistor-26-lPin" endpinid="LedRgb-22-Pin1" pointList="1116,496,1108,496,1108,548,1116,548" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Resistor-25-lPin" endpinid="LedRgb-22-Pin0" pointList="1116,520,1116,540" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Ground-27-Gnd" endpinid="Push-28-switch0pinN" pointList="1108,472,1116,472" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Resistor-26-lPin" endpinid="LedRgb-22-Pin1" pointList="1116,496,1108,496,1108,548,1116,548" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Resistor-25-lPin" endpinid="LedRgb-22-Pin0" pointList="1116,520,1116,540" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Ground-27-Gnd" endpinid="Push-28-switch0pinN" pointList="1108,472,1116,472" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Resistor-26-lPin" endpinid="LedRgb-22-Pin1" pointList="1116,496,1108,496,1108,548,1116,548" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Resistor-25-lPin" endpinid="LedRgb-22-Pin0" pointList="1116,520,1116,540" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Ground-27-Gnd" endpinid="Push-28-switch0pinN" pointList="1108,472,1116,472" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Resistor-26-lPin" endpinid="LedRgb-22-Pin1" pointList="1116,496,1108,496,1108,548,1116,548" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Resistor-25-lPin" endpinid="LedRgb-22-Pin0" pointList="1116,520,1116,540" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Ground-27-Gnd" endpinid="Push-28-switch0pinN" pointList="1108,472,1116,472" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Resistor-26-lPin" endpinid="LedRgb-22-Pin1" pointList="1116,496,1108,496,1108,548,1116,548" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Resistor-25-lPin" endpinid="LedRgb-22-Pin0" pointList="1116,520,1116,540" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Ground-27-Gnd" endpinid="Push-28-switch0pinN" pointList="1108,472,1116,472" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Resistor-26-lPin" endpinid="LedRgb-22-Pin1" pointList="1116,496,1108,496,1108,548,1116,548" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Resistor-25-lPin" endpinid="LedRgb-22-Pin0" pointList="1116,520,1116,540" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="Ground-27-Gnd" endpinid="Push-28-switch0pinN" pointList="1108,472,1116,472" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Resistor-26-lPin" endpinid="LedRgb-22-Pin1" pointList="1116,496,1108,496,1108,548,1116,548" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Resistor-25-lPin" endpinid="LedRgb-22-Pin0" pointList="1116,520,1116,540" />
+
+</circuit>

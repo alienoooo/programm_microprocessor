@@ -1,0 +1,31 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Uno-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-56,-92" rotation="0" hflip="1" vflip="1" label="Uno-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="0_3.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
+</item>
+
+<item itemtype="Led" CircId="Led-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-80,36" rotation="-540" hflip="1" vflip="1" label="Led-2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Red" Grounded="false" Threshold="1.8 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-3" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-80,60" rotation="0" hflip="1" vflip="1" label="Resistor-3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="220 Ω" />
+
+<item itemtype="SerialPort" CircId="SerialPort-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-24,-132" rotation="0" hflip="1" vflip="1" label="SerialPort-5" idLabPos="-20,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" Auto="false" Baudrate="9600 _Bd" DataBits="8 _bits" StopBits="1 _bits" SerialMon="true" />
+
+<item itemtype="Push" CircId="Push-6" mainComp="false" Show_id="false" Show_Val="false" Pos="-76,-4" rotation="-180" hflip="1" vflip="1" label="Push-6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-7" mainComp="false" Show_id="false" Show_Val="false" Pos="-92,20" rotation="0" hflip="1" vflip="1" label="Ground-7" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="Led-2-lPin" endpinid="Uno-1-13" pointList="-64,36,-48,36" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="Led-2-rPin" endpinid="Resistor-3-lPin" pointList="-96,36,-96,60" />
+
+<item itemtype="Connector" uid="Connector-8" startpinid="Resistor-3-rPin" endpinid="Uno-1-GND2" pointList="-64,60,-64,44,-48,44" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="SerialPort-5-pin1" endpinid="Uno-1-1" pointList="-64,-124,-64,-68,-48,-68" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="SerialPort-5-pin0" endpinid="Uno-1-0" pointList="-64,-140,-72,-140,-72,-76,-48,-76" />
+
+<item itemtype="Connector" uid="Connector-13" startpinid="Push-6-switch0pinN" endpinid="Ground-7-Gnd" pointList="-92,-4,-92,4" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="Push-6-pinP0" endpinid="Uno-1-8" pointList="-60,-4,-48,-4" />
+
+</circuit>
